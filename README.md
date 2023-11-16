@@ -1,4 +1,7 @@
-# Your Project Name
+Certainly! Below is a sample README file for your project based on the provided code:
+
+```markdown
+# Varthak Book Library App
 
 A brief description of your project.
 
@@ -36,3 +39,23 @@ Explain how to use the project and any important information users should know.
 ```plaintext
 POST /auth/signup - Register a new user
 POST /auth/login - Log in a user
+```
+
+### Book Routes
+
+```plaintext
+POST /books - Create a new book (requires 'creator' role)
+GET /books - View books (requires 'viewer' role)
+GET /books/all - View all books (requires 'view_all' role)
+```
+
+## Contributing
+
+Explain how others can contribute to your project, including guidelines for pull requests and code of conduct.
+
+## License
+
+This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
+```
+
+Replace "Your Project Name" and "[Your License]" with the actual name of your project and the chosen license, respectively. Customize the sections and content as needed for your specific project.
