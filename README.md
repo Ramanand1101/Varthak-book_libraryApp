@@ -1,7 +1,5 @@
 
-# Your Project Name
-
-A brief description of your project.
+# Varthak Book Library App
 
 ## Table of Contents
 - [Getting Started](#getting-started)
