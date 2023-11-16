@@ -1,80 +1,38 @@
-Varthak- Library App Assignment 
+# Your Project Name
 
-Manage and Try our Varthak for an added boost to your business!
+A brief description of your project.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Project Demo](#project-demo)
-- [Features](#Features)
-- [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Usage](#usage)
-  - [Authentication](#authentication)
-  - [Routes](#routes)
-
-## Introduction
-This library app project is a Node.js application built with TypeScript and Express, featuring user authentication, 
-role-based access control, and the ability to manage and view books, with support for logging incoming requests using Winston.
-
-## Project Demo
-https://drive.google.com/file/d/1kc5m0A_Wvf8G88-nUCEX0lFfrHkQ_bw8/view?usp=sharing
-  
-## Features
-
-- User registration and JWT authentication for login.
-- Book management, including the ability to add, retrieve, and filter books by book createdAt timeline.
-- role based access control after secure logging.
-  
-## Tech Stack
-
-- **Node.js**: A JavaScript runtime for server-side development.
-- **Typescript**: Programming language.
-- **Express.js**: A web application framework for Node.js.
-- **MongoDB**: A NoSQL database for storing data.
-- **JWT**: JSON Web Tokens for authentication.
-- **Other Dependencies**: Various Node.js libraries and modules.
-
+- [Routes](#routes)
+  - [Authentication Routes](#authentication-routes)
+  - [Book Routes](#book-routes)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Getting Started
 
+Describe how to get a copy of the project up and running on a local machine for development and testing purposes.
+
+### Prerequisites
+
+List any software, libraries, or tools that users need to have installed before they can use your project.
+
 ### Installation
 
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/love-porwal/Varthak_Library_App.git
-   
-2. Navigate to the project directory:
-   ```
-   cd Varthak_Library_App
-   npm init -y
-   ```
-   
-3. Install dependencies:
-   ```
-   npm install 
-   ```
-
-4. Application Start
-   ```
-   npm start
-   ```
-
+Provide step-by-step instructions on how to install the project.
 
 ## Usage
-### Authentication
-To use protected routes, you must authenticate by obtaining a JWT token. Use the /auth/login route to log in and get the token.
 
+Explain how to use the project and any important information users should know.
 
 ## Routes
-### User Routes
-```
-User Registration: POST /auth/signup
-User Login: POST /auth/login
-```
-### Book Routes
-```
-Create a Book: POST /books
-Read a Book: GET /books
-Read all Existing Books: GET /books/all
-```
+
+### Authentication Routes
+
+```plaintext
+POST /auth/signup - Register a new user
+POST /auth/login - Log in a user
