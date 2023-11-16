@@ -8,7 +8,9 @@ const PORT = process.env.PORT || 8080;
 
 
 connectDB();
-
+app.get("/",(req,res)=>{
+  res.send("Welcome to the Library App");
+})
 app.use(express.json());
 app.use('/auth', authRoutes);
 app.use('/', bookRoutes);
