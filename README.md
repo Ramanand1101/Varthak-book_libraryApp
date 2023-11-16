@@ -1,6 +1,4 @@
-Certainly! Below is a sample README file for your project based on the provided code:
 
-```markdown
 # Your Project Name
 
 A brief description of your project.
