@@ -33,3 +33,5 @@
 {"level":"info","message":"Received request for /books"}
 {"level":"info","message":"Received request for /books?old=1"}
 {"level":"info","message":"Received request for /books?new=1"}
+{"level":"info","message":"Received request for /books?new=1"}
+{"level":"info","message":"Received request for /books?old=1"}
